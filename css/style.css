@@ -3,13 +3,14 @@ body {
 	font-family: Palatino Linotyle, Garamond, san-serif;
 	color: #000000;
 	background: #ffffff;
-	background-image: url("../img/images1.jpg");
+	background-image: url("../img/black.jpeg");
 	background-position: top left;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	text-align: justify;
 	background-size:cover;
 }
+
 
 img {
   width: 50px;
@@ -18,6 +19,7 @@ img {
 
 div {background-color: transparent; color:black;
 }
+
 
 //links
 
@@ -28,9 +30,15 @@ a:hover { background: #ffa; }
 
 h1, h2, h3, h4, h5, h6 { text-align:left; }
 h1, h2, h3 { color: #005a9c; }
-h1 {font: 170%; font-family: san-serif; }
+h1 {font: 170%; font-family: san-serif;}
 h2 {font: 140%; font-family: san-serif; }
 h3 {font: 120%; font-family: san-serif; }
 h4 {font: 100%; font-weight: strong; font-family: san-serif; }
 h5 {font: 100%; font-style: italic; font-family: san-serif; }
-h6 {font: 170%; font-variant: small-caps; font-family: san-serif; }
+h6 {font: 170%; font-variant: small-caps; font-family: san-serif;}
+
+
+li{
+	font-size:15px;
+	font-weight:bold;
+}
