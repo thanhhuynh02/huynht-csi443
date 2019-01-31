@@ -1,46 +1,168 @@
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-	<head>
-	<title>Thanh Thanh Huynh</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="CSI 443 - Responsive Web Design development in RTC">
-	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
-	<meta name="author" content="Thanh Thanh Huynh">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
 
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
-	</head>	
-	
-	<body>
-		<div class="container-fluid">
-		<div class="row"> 
-		<div class="col-sm-4">
-			<img src="img/profilepicture.jpg"/>
-			<h2> Thanh Thanh Huynh</h2>
-			<p> XXX-XXX-XXXX <br/>
-			thuynh13579 at rtc dot edu</p>
-			</div>
-			
-		<div class="col-sm-8">
-		
-		<h2> Biography</h2>
-		<p> My name is Thanh Thanh Huynh, and I am majoring in Computer science at Renton Technical College. 
-		I became interested in computering at the age of 18 when desided to enroll on computer course in 
-		my hometown where I was taught about computer system and word processing. I found that computers are powerful tools
-		which can help analyzing the mass of data, making decisions, problem solving. 
-		Moreover, computer technology are part of everything that we touches in our lives.  I
-		think that understanding different dimensions in computer is an essential skills for life in 21 century.
-		I believe that earning a computer science degree will provide me with valuable knowlege and a better life in the future.</p>
+    <title>Thanh Thanh Huynh</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="CSI 443 - Responsive Web Design development in RTC">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Thanh Thanh Huynh">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="topnav">
+            <a class="active" href="Index.html">Home</a>
+			<a href="html/webresource.html">Web resource</a>
+			<a href="html/assignment3.html">Assignment3</a>
 		</div>
-		</div>
-		</div>
-	
-	</body>
-	</html>
+
+        <div class="row">
+            <!--column 1 start-->
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <img id="profilep" src="img/profilepicture.jpg" /> <br />
+                <h4>Thanh Thanh Huynh <br /> thuynh13579 at rtc dot edu <br /> (XXX)XXX-XXXX</h4>
+            </div>
+            <!--column 1 end-->
+            <!--column 2 start-->
+            <div class="col-xs-12 col-sm-8 col-md-9">
+                <h4>Biography</h4>
+                <p>
+                    My name is Thanh Thanh Huynh, and I am majoring in Computer science at Renton Technical College.
+                    I became interested in computering at the age of 18 when desided to enroll on computer course in
+                    my hometown where I was taught about computer system and word processing. I found that computers are powerful tools
+                    which can help analyzing the mass of data, making decisions, problem solving.
+                    Moreover, computer technology are part of everything that we touches in our lives.  I
+                    think that understanding different dimensions in computer is an essential skills for life in 21 century.
+                    I believe that earning a computer science degree will provide me with valuable knowlege and a better life in the future.
+                </p>
+            </div>
+            <!--column 2 end-->
+            <!--column 3 start
+                    <div class="col-xs-12 col-sm-8 col-md-3 col-lg-4">
+                        <h4>Education</h4>
+                            <p>Association degree in art at Bellevue College (March 2017)<br/>
+                            Renton Technical College - Application Development- Bachelor of Applied Science (January 2017 –Present)</p>
+
+                        <h4>Experience</h4>
+                            <p> In high school, I've been taken the Photoshop class. I've also taken the JAVA class in Bellevue College. I've also experience with HTML, CSS, JavaScript, SQL, ASP.net in RTC.</p>
+                    </div>
+        column 3 end-->
+        </div>
+       
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 hidden-md hidden-lg hidden-xl">
+                <h4>Movies</h4>
+                <ul>
+                    <li>Bumble Bee</li>
+                    <li>Black Panther</li>
+                    <li>Avengers:Infinity War </li>
+                    <li>Venom</li>
+                    <li>Incredibles2</li>
+                </ul>
+            </div>
+
+        <div class="col-md-6 col-sm-6 hidden-md hidden-lg hidden-xl">
+            <h4 class="d-none d-sm-block">Books</h4>
+            <ul>
+                <li>Rich Dad Poor Dad</li>
+                <li>Rental property Investing</li>
+                <li>How to stop worrying and start living </li>
+                <li>How to win friend and influence people</li>
+                <li> Twilight</li>
+            </ul>
+        </div>
+    </div>
+
+        <!--column 4 start-->
+        <div id="moviesubcolum">
+            <div class="hidden-xs hidden-sm col-lg-12 col-sm-6">
+                <!--subcolumn movies start-->
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <h4>Movies</h4>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="https://www.youtube.com/watch?v=lcwmDAYt22k" target="_blank" />
+                    <img src="img/Movies/BumbleBee.jpg" alt="Bumble Bee (2018)" />
+                    <div class="font-italic">Bumble Bee</div>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="https://www.youtube.com/watch?v=gAEXKmfAFaE" target="_blank" />
+                    <img src="img/Movies/BlackPanther.jpg" alt="Black Panther (2018)" />
+                    <div class="font-italic">Black Panther </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="https://www.youtube.com/watch?v=-y_Kjj3Hdb4" target="_blank" />
+                    <img src="img/Movies/Avengers.jpg" alt="Avengers:Infinity War (2018)" />
+                    <div class="font-italic">Avengers:Infinity War </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="https://www.youtube.com/watch?v=xLCn88bfW1o" target="_blank" />
+                    <img src="img/Movies/Venom.jpg" alt="Venom (2018)" />
+                    <div class="font-italic">Venom </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="https://www.youtube.com/watch?v=i5qOzqD9Rms" target="_blank" />
+                    <img src="img/Movies/Incredibles2.jpg" alt="Incredibles2 (2018)" />
+                    <div class="font-italic"> Incredibles2</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="booksubcolum">
+            <div class="hidden-xs hidden-sm col-lg-12 col-sm-6">
+                <!--subcolumn books start-->
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <h4>Books</h4>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="img/Books/RichDadPoorDad.jpg" target="_blank" />
+                    <img src="img/Books/RichDadPoorDad.jpg" alt="Rich Dad Poor Dad" />
+                    <div class="font-italic">Rich Dad Poor Dad</div>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="img/Books/RentalProperty.jpg" target="_blank" />
+                    <img src="img/Books/RentalProperty.jpg" alt="Rental property Investing" />
+                    <div class="font-italic">Rental property Investing </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="img/Books/HowToStopWorrying.jpg" target="_blank" />
+                    <img src="img/Books/HowToStopWorrying.jpg" alt="How to stop worrying and start living" />
+                    <div class="font-italic">How to stop worrying and start living </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="img/Books/HowToWinFriendandInfluencePeople.jpg" target="_blank" />
+                    <img src="img/Books/HowToWinFriendandInfluencePeople.jpg" alt="How to win friend and influence people" />
+                    <div class="font-italic">How to win friend and influence people</div>
+                </div>
+
+                <div class="col-xs-12 col-lg-2 col-xl-2">
+                    <a href="img/Books/Twilight.jpg" target="_blank" />
+                    <img src="img/Books/Twilight.jpg" alt="Twilight" />
+                    <div class="font-italic"> Twilight</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
