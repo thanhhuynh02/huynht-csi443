@@ -1,0 +1,108 @@
+
+body {
+	font-family: Palatino Linotyle, Garamond, san-serif;
+	/*color: #000000;
+	background: #ffffff;
+	background-color: Lavender ;
+	background-position: top left;
+	background-attachment: fixed;
+	background-repeat: no-repeat; */
+	text-align: justify;
+	background-size:cover;
+}
+
+
+#profilep {
+  width: 150px;
+  height: 150px;
+}
+
+img {
+    width: 75%;
+    height: 75%;
+}
+
+/* div {background-color: transparent; color:black;
+} */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent ;
+    overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: transparent;
+            color: slateblue;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: transparent;
+            color: slateblue;
+        }
+
+
+//links
+
+a:link {color: #ooc; background:transparent;}
+a:visited {color: #609; background:transparent;}
+a:active {color: #c00; background:transparent;}
+a:hover { background: #ffa; }
+
+h1, h2, h3, h4, h5, h6 { text-align:left; }
+h1, h2, h3 { color: #005a9c; }
+h1 {font: 170%; font-family: san-serif;}
+h2 {font: 140%; font-family: san-serif; }
+h3 {font: 120%; font-family: san-serif; }
+h4 {font: 100%; font-weight: strong; font-family: san-serif; }
+h5 {font: 100%; font-style: italic; font-family: san-serif; }
+h6 {font: 170%; font-variant: small-caps; font-family: san-serif;}
+
+
+/* li{
+	font-size:15px;
+	font-weight:bold;
+}
+
+		div.transbox {
+		margin: 30px;
+		background-color: #ffffff;
+		opacity: 0.7;
+		filter: alpha(opacity=60);
+	} */
+	
+@media /*only screen and*/ (max-width: 749px) {
+    body {
+        background-color: black;
+        color: white;}   
+}
+    
+@media (min-width:750px ) and (max-width: 991px) {
+    body {
+        background-color: lightgray;
+        color: black;
+    }
+}
+@media (min-width:991px){
+    body{
+        background-color:white;
+    }
+	a:link {color: #00bfff; background:transparent;}
+	a:visited {color: #609; background:transparent;}
+	a:active {color: #c00; background:transparent;}
+	a:hover { background: #ffa; }
+    #myname { font-size: 48px;}
+        
+}

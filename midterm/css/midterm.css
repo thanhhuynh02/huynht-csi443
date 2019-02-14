@@ -1,0 +1,40 @@
+body {
+	font-family: Palatino Linotyle, Garamond, san-serif;
+	text-align: justify
+}
+
+.topnav {
+    background-color: transparent ;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: transparent;
+	color: slateblue;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: transparent;
+	color: slateblue;
+}
+
+h1, h3 {
+	text-align:left;
+}
+
+a:link {color: #00bfff; background:transparent;}
+	a:visited {color: #609; background:transparent;}
+	a:active {color: #c00; background:transparent;}
+	a:hover { background: #ffa; }
